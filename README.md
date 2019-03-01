@@ -1,0 +1,2 @@
+# SpeakBee
+translator using bixby
