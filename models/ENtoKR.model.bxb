@@ -1,0 +1,11 @@
+action (ENtoKR) {
+  type (Search)
+  description (translate from english to korean)
+  collect {
+    input (lang) {
+      type (Lang)
+      min (Required) max (One)
+    }
+  }
+  output (Translation)
+}

@@ -1,0 +1,15 @@
+layout {
+  match: Translation (this)
+  mode (Summary)
+  
+  content {
+    // section {
+    //   content {
+    //     paragraph {
+    //       value ("#{value(this.data)}")
+    //       style (Body_1)
+    //     }
+    //   }
+    // }
+  }
+}

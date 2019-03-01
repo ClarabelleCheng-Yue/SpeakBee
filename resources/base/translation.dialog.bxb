@@ -1,0 +1,7 @@
+dialog (Result) {
+  match: Translation (this)
+  // template ("Me temo que no puedo.")
+  template("#{value(this)}") {
+    speech ("blah blah")    
+  }
+}

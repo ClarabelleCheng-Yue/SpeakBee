@@ -1,0 +1,4 @@
+vocab (Lang) {
+  EN { "EN" }
+  KR { "KR" }
+}

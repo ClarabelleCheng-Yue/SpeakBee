@@ -1,0 +1,22 @@
+capsule {
+  id (playground.translator)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-tv-de-DE) 
+    target (bixby-tv-en-GB)
+    target (bixby-tv-en-US)
+    target (bixby-tv-es-ES)
+    target (bixby-tv-fr-FR)
+    target (bixby-tv-it-IT)
+    target (bixby-tv-ko-KR)
+  }
+  capsule-imports {
+    import (viv.core) { as (core) }
+    import (viv.entity) { as (entity) version (3.11.22) }
+    import (viv.common) { as (common) version-from(entity) }
+  }
+  permissions {
+    full-utterance-access
+  }
+}
