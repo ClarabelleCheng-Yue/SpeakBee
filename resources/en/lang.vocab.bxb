@@ -1,4 +1,4 @@
 vocab (Lang) {
-  EN { "EN" }
-  KR { "KR" }
+  EN { "EN" "english" }
+  KR { "KR" "korean" }
 }

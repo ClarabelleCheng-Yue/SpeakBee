@@ -1,0 +1,4 @@
+enum (FromLang) {
+  description (language that needs to be translated)
+  role-of (Lang)
+}

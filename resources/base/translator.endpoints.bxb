@@ -14,9 +14,14 @@ endpoints {
   // }
 
   action-endpoints {
-    action-endpoint (ENtoKR) {
-      accepted-inputs (lang)
+    action-endpoint (Translate) {
+      accepted-inputs (fromTo, $vivContext)
       local-endpoint (translate.js)
+    }
+    
+    action-endpoint (GetPattern) {
+      accepted-inputs (fromLang, toLang, $vivContext)
+      local-endpoint (getPattern.js)
     }
 
     // action-endpoint (__ACTION_NAME__) {

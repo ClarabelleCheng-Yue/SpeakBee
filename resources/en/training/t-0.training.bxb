@@ -1,0 +1,10 @@
+train (t-0ct0ue35hwbozfl9oeol6posl) {
+  utterance ("[g:FromTo:pattern] {[g:ToLang] (korean)[v:Lang:KR]} from {[g:FromLang] (english)[v:Lang:EN]}")
+  plan (Y2BjkC5OzC0uzUvXKykLKUrMK85JLMkv0nMrys8NyWeQxyrpnloSkFhSklqUxyCLU7dPYl46gyRWabAUdntD8gnpY2VgZGBiYGZgAbIYwGxGIJsRyGaBYpA4TAUTELIAAA==)
+  last-modified (1551827268850)
+}
+train (t-0i496a4euqavw9gc6vy2soj30) {
+  utterance ("[g:FromTo:pattern] {[g:FromLang] (english)[v:Lang:EN]} to {[g:ToLang] (korean)[v:Lang:KR]}")
+  plan (Y2BjkC5OzC0uzUvXKykLKUrMK85JLMkv0nMrys8NyWeQxyrpnloSkFhSklqUxyCLU7dPYl46gyRWabAUdntD8gnpY2VgZGBiYGZgAbIYwGxGIJsRyGaBYpA4TAUTELIAAA==)
+  last-modified (1551827298655)
+}

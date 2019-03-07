@@ -1,4 +1,8 @@
-module.exports.function = function translate (lang) {
+module.exports.function = function translate (fromTo, $vivContext) {
+  console.log('fromto: ', fromTo);
+  console.log('viv context: ', $vivContext.utterance);
+  console.log('arguments: ', arguments);
   // TODO: add translator API here
-  return "blah blah"
+  
+  return "hi"
 }

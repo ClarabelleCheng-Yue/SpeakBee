@@ -1,5 +1,5 @@
 capsule {
-  id (playground.translator)
+  id (samsung.tvTranslator)
   version (0.1.0)
   format (3)
   targets {

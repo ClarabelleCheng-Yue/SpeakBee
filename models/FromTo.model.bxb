@@ -1,0 +1,11 @@
+structure (FromTo) {
+  description (from language to language)
+  property (from) {
+    type (FromLang)
+    min (Optional) max (One)
+  }
+  property (to) {
+    type (ToLang)
+    min (Required) max (One)
+  }
+}

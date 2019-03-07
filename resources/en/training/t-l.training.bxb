@@ -1,0 +1,5 @@
+train (t-l9oy7skdvkd99pfujgit49ena) {
+  utterance ("[g:FromTo:pattern] how do you say this in {[g:ToLang] (korean)[v:Lang:KR]}")
+  plan (Y2BhkC5OzC0uzUvXKykLKUrMK85JLMkv0nMrys8NyWeQxyrpnloSkFhSklqUh0N3SL5PYl46gyRWSbAUMwMjAxOQZADTjECaBYhBfCaIHAA=)
+  last-modified (1551827353051)
+}

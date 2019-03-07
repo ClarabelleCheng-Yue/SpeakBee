@@ -1,0 +1,16 @@
+action (GetPattern) {
+  type (Constructor)
+  description (get from and to languages)
+  collect {
+    input (fromLang) {
+      type (FromLang)
+      min (Optional) max (One)
+    }
+    
+    input (toLang) {
+      type (ToLang)
+      min (Required) max (One)
+    }
+  }
+  output (FromTo)
+}
