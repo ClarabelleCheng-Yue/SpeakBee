@@ -1,0 +1,5 @@
+train (t-ia46b88yjv9rha3uxqvsuqfpy) {
+  utterance ("[g:Translate] (translate to korean)[v:FromTo] how are you today?")
+  plan (Y2BmUChOzC0uzUvXKykLKUrMK85JLMkv0oMxM/PzGOTwqkhlkMYq71aUnxuSz8DEwAjEDECSkQEEoHwA)
+  last-modified (1551924754316)
+}
