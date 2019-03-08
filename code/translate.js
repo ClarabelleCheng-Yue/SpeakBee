@@ -1,10 +1,13 @@
 module.exports.function = function translate (fromTo, $vivContext) {
-  console.log('fromto: ', fromTo);
+    console.log('arguments: ', arguments);
   console.log('viv context utt: ', $vivContext.utterance);
-  console.log('arguments: ', arguments);
   const utt = $vivContext.utterance;
-  console.log('utt: ', utt);
   // TODO: add translator API here
+  // get full utterance
+  // extract substring to translate
+  // pass substring to API
+  // get translated text and audio
+  // ask geoff how to play audio
   
-  return "hi"
+  return "HI how are you"
 }
