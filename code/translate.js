@@ -1,13 +1,13 @@
+console = require ('console');
+const regex = /translate from (english|spanish) to (english|spanish|korean) (.*)/i
+
 module.exports.function = function translate (fromTo, $vivContext) {
     console.log('arguments: ', arguments);
   console.log('viv context utt: ', $vivContext.utterance);
   const utt = $vivContext.utterance;
-  // TODO: add translator API here
-  // get full utterance
-  // extract substring to translate
-  // pass substring to API
-  // get translated text and audio
-  // ask geoff how to play audio
+
+  const parsed = regex.exec(utt);
   
-  return "HI how are you"
+  const toXlate = (parsed.length < 4) ? '' : parsed[3];
+  return http.getUrl('https://xlate.herokuapp.com/xlate', {format: 'text', query:{toxlate: toXlate, format:'text'}});
 }

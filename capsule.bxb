@@ -1,5 +1,5 @@
 capsule {
-  id (speakbee.tvTranslator)
+  id (playground.tvTranslator)
   version (0.1.0)
   format (3)
   targets {
