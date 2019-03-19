@@ -1,5 +1,12 @@
 train (t-ia46b88yjv9rha3uxqvsuqfpy) {
   utterance ("[g:Translate] (translate to korean)[v:FromTo] how are you today?")
   plan (Y2BmUChOzC0uzUvXKykLKUrMK85JLMkv0oMxM/PzGOTwqkhlkMYq71aUnxuSz8DEwAjEDECSkQEEoHwA)
-  last-modified (1551924754316)
+  enabled (false)
+  last-modified (1552607830168)
+}
+train (t-ivglbh7vytqaj2lc8tdr7apew) {
+  utterance ("[g:Translate] how are you (in korean)[v:FromTo]")
+  plan (Y2BmUC7ISaxML8ovzUvRKykLKUrMK85JLMkv0oMxM/PzGBQJKUplkMOlxK0oPzckn4GJgRGIGYAkIwMIQPkA)
+  enabled (false)
+  last-modified (1552607702900)
 }

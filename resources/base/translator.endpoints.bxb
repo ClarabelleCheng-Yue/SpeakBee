@@ -15,7 +15,7 @@ endpoints {
 
   action-endpoints {
     action-endpoint (Translate) {
-      accepted-inputs (fromTo, $vivContext)
+      accepted-inputs ($vivContext) // fromTo,
       local-endpoint (translate.js)
     }
     

@@ -1,0 +1,6 @@
+train (t-juyj1fvjk0i07x8l26m732epz) {
+  utterance ("[g:Translate] (korean)[v:FromTo] how are you")
+  plan (Y2BmUC7ISaxML8ovzUvRKykLKUrMK85JLMkv0oMxM/PzGBQJKUplkMOlxK0oPzckn4GJgRGIGYAkIwMIQPkA)
+  enabled (false)
+  last-modified (1552607703799)
+}
