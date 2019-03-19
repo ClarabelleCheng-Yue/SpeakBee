@@ -1,0 +1,6 @@
+train (t-c3zzvfjlhu8rlzqxixyd3wwzk) {
+  utterance ("[g:FromTo:pattern] {[g:ToLang] (korean)[v:Lang:KR]}")
+  plan (Y2BhkCvISaxML8ovzUvRKykLKUrMK85JLMkv0nMrys8NyWdQwiXvnloSkFhSklqUh9uMkHyfxLx0Bhlc8mBZZgZGBiYgyQCmGYE0CxCD+EwQOQA=)
+  enabled (false)
+  last-modified (1552607705320)
+}
