@@ -1,5 +1,6 @@
 train (t-qm7u4ptjunljijzk1kicu1nmb) {
   utterance ("[g:FromTo:pattern] translate from {[g:FromLang] (english)[v:Lang:EN]} to {[g:ToLang] (korean)[v:Lang:KR]}")
   plan (Y2BjkC5OzC0uzUvXKykLKUrMK85JLMkv0nMrys8NyWeQxyrpnloSkFhSklqUxyCLU7dPYl46gyRWabAUdntD8gnpY2VgZGBiYGZgAbIYwGxGIJsRyGaBYpA4TAUTELIAAA==)
-  last-modified (1551827903458)
+  enabled (false)
+  last-modified (1552607823982)
 }

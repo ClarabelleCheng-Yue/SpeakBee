@@ -1,5 +1,6 @@
 train (t-h8hg7ogweylh5qtlthmocj8s7) {
   utterance ("[g:Translate] (translate from english to korean)[v:FromTo] how are you today?")
   plan (Y2BmUChOzC0uzUvXKykLKUrMK85JLMkv0oMxM/PzGOTwqkhlkMYq71aUnxuSz8DEwAjEDECSkQEEoHwA)
-  last-modified (1551923746670)
+  enabled (false)
+  last-modified (1552607502763)
 }
