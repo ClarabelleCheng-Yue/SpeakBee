@@ -1,21 +1,7 @@
 endpoints {
-  // authorization {
-  //   none
-  //   // or add OAuth configuration
-  //   oauth {
-  //     authorize-endpoint (__ENDPOINT__)
-  //     client-id (__CLIENT_ID__)
-  //     client-secret (__CLIENT_SECRET__)
-  //     grant-type (__AUTHORIZATION_CODE__)
-  //     provider (__PROVIDER__)
-  //     scope (__SCOPE__)
-  //     token-endpoint (__TOKEN_ENDPOINT__)
-  //   }
-  // }
-
   action-endpoints {
     action-endpoint (Translate) {
-      accepted-inputs ($vivContext) // fromTo,
+      accepted-inputs ($vivContext)
       local-endpoint (translate.js)
     }
     
@@ -23,12 +9,5 @@ endpoints {
       accepted-inputs (fromLang, toLang, $vivContext)
       local-endpoint (getPattern.js)
     }
-
-    // action-endpoint (__ACTION_NAME__) {
-    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-    //   remote-endpoint (__ENDPOINT_URL__) {
-    //     method (__HTTP_METHOD_USED__)
-    //   }
-    // }
   }
 }

@@ -1,5 +1,5 @@
 capsule {
-  id (playground.tvTranslator)
+  id (samsung.tvTranslator)
   version (0.1.0)
   format (3)
   targets {
@@ -8,7 +8,7 @@ capsule {
   capsule-imports {
     import (viv.core) { as (core) }
   }
-permissions {
-  full-utterance-access
-}
+  permissions {
+    full-utterance-access
+  }
 }

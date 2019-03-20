@@ -1,11 +1,5 @@
 action (Translate) {
   type (Search)
-  description (translate from one language to another)
-  // collect {
-    // input (fromTo) {
-    //   type (FromTo)
-    //   min (Required) max (One)
-    // }
-  // }
+  description (translate)
   output (Translation)
 }

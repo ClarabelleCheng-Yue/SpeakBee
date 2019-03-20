@@ -1,3 +1,11 @@
-text (Translation) {
+structure (Translation) {
   description (the final translation)
+  property (text) {
+    type (Text)
+    min (Required) max (One)
+  }
+  property (audioUrl) {
+    type (AudioUrl)
+    min (Required) max (One)
+  }
 }

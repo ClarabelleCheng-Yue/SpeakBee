@@ -1,5 +1,5 @@
 train (t-ez4j13qqypg9il3m0saybycq6) {
-  utterance ([g:Translate] Speak bee where is the bathroom)
+  utterance ([g:Translate] hey where is the bathroom)
   plan (Y2BiUC7ISaxML8ovzUvRKykLKUrMK85JLMkv0oMxM/PzGBQJKUplYARCBigGkgA=)
-  last-modified (1552607930804)
+  last-modified (1553124831513)
 }

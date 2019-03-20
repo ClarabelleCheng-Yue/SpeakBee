@@ -1,4 +1,4 @@
-module.exports.function = function translate ($vivContext) { // fromTo,
+module.exports.function = function translate ($vivContext) {
     console.log('arguments: ', arguments);
   console.log('viv context utt: ', $vivContext.utterance);
   // TODO: add parser
@@ -13,6 +13,6 @@ module.exports.function = function translate ($vivContext) { // fromTo,
   
   return {
     text: "어떻게 지네서요?",
-    audio: ""
+    audioUrl: "oh dok keh ji nay say yo?"
   }
 }
