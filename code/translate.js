@@ -11,5 +11,8 @@ module.exports.function = function translate ($vivContext) { // fromTo,
   // get translated text and audio
   // ask geoff how to play audio
   
-  return "HI how are you"
+  return {
+    text: "어떻게 지네서요?",
+    audio: ""
+  }
 }

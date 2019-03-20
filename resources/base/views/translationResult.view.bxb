@@ -1,0 +1,20 @@
+result-view {
+   match {
+     Translation (output)
+   }
+
+   render {
+     layout {
+       section {
+         content {
+           single-line {
+             text {
+               style (Detail_M)
+               value ("#{value(output)}")
+             }
+           }
+         }
+       }
+     }
+  }
+}
