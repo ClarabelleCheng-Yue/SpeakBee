@@ -1,5 +1,6 @@
 action (Translate) {
   type (Search)
   description (translate)
+
   output (Translation)
 }

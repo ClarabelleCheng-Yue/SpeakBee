@@ -1,4 +1,0 @@
-enum (ToLang) {
-  description (language to be translated into)
-  role-of (Lang)
-}

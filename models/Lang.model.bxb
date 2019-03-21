@@ -1,5 +1,0 @@
-enum (Lang) {
-  description (supported languages)
-  symbol (EN)
-  symbol (KR)
-}

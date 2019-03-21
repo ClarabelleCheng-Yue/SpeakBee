@@ -1,16 +1,16 @@
 result-view {
-   match {
-     Translation (output)
-   }
+   match:Translation (this)
 
+  // app-launch here
+  
    render {
      layout {
        section {
          content {
            single-line {
              text {
-               style (Detail_M)
-               value ("#{value(output)}")
+               style (Detail_L)
+               value ("#{value(this.text)}")
              }
            }
          }

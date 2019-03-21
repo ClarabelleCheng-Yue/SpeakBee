@@ -4,10 +4,5 @@ endpoints {
       accepted-inputs ($vivContext)
       local-endpoint (translate.js)
     }
-    
-    action-endpoint (GetPattern) {
-      accepted-inputs (fromLang, toLang, $vivContext)
-      local-endpoint (getPattern.js)
-    }
   }
 }

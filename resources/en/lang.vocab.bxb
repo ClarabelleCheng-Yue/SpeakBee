@@ -1,4 +1,0 @@
-vocab (Lang) {
-  EN { "EN" "english" }
-  KR { "KR" "korean" }
-}
