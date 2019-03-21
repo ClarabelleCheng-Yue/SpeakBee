@@ -8,11 +8,8 @@ result-view {
   }
   
   app-launch {
-    requires {
-      app-id (“org.tizen.browser”)
-    }
     payload-uri {
-      template ("browser://www.google.com") //settings/some/path?param=#{value(this)}")
+      template ("#{value(this)}") 
     }
   }
 }

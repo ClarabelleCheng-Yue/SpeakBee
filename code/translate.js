@@ -13,7 +13,7 @@ module.exports.function = function translate ($vivContext) {
   const text = http.getUrl('https://xlate.herokuapp.com/xlate', {format: 'text', query:{toxlate: toXlate, format:'text'}});
   console.log('text: ', text);
   return {
-    text: text,
-    audioUrl: "testing testing 1 2 3"
+    text: text || "test",
+    audioUrl: "http://www.google.com"
   }
 }
