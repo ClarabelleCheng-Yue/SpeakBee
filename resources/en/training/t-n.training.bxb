@@ -1,6 +1,0 @@
-train (t-nissseysygzgr1piwpdvtxubb) {
-  utterance ("[g:FromTo:pattern] in {[g:ToLang] (korean)[v:Lang:KR]}")
-  plan (Y2BhkCvISaxML8ovzUvRKykLKUrMK85JLMkv0nMrys8NyWdQwiXvnloSkFhSklqUh9uMkHyfxLx0Bhlc8mBZZgZGBiYgyQCmGYE0CxCD+EwQOQA=)
-  enabled (false)
-  last-modified (1552607699219)
-}
