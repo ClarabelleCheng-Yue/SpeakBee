@@ -7,12 +7,14 @@ result-view {
      layout {
        section {
          content {
-           single-line {
-             text {
-               style (Detail_L)
-               value ("#{value(this.text)}")
-             }
-           }
+          layout-macro (play-audio-macro) {
+            param (text) {
+              expression (this.text)
+            }
+            param (audioUrl) {
+              expression (this.audioUrl)
+            }
+          }
          }
        }
      }

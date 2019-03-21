@@ -1,0 +1,32 @@
+layout-macro-def (play-audio-macro) {
+  params {
+    param (audioUrl) {
+      type (AudioUrl)
+      min (Required) max (One)
+    }
+    param (text) {
+      type (Text)
+      min (Required) max (One)
+    }
+  }
+  
+  content {
+     title-card {
+        title-area {
+            halign (Center)
+            slot1 {
+                text {
+                    style (Title_S)
+                    value ("#{value(text)}")
+                }
+            }
+        }
+        on-click {
+            intent {
+               goal: PlayUrl
+               value-set: AudioUrl { $expr(audioUrl) }
+            }
+        }
+    }    
+  }
+}

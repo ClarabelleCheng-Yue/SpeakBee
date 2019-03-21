@@ -1,0 +1,11 @@
+action (PlayUrl) {
+  type (Search)
+  description (stand up the browser to run the audio at the url)
+  collect {
+    input (url) {
+      type (AudioUrl)
+      min (Required) max (One)
+    }
+  }
+  output (AudioUrl)
+}

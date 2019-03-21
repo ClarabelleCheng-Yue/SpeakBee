@@ -4,5 +4,10 @@ endpoints {
       accepted-inputs ($vivContext)
       local-endpoint (translate.js)
     }
+    action-endpoint (PlayUrl) {
+      accepted-inputs (url)
+      local-endpoint (playUrl.js)
+    }
+    
   }
 }
