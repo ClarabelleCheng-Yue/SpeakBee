@@ -1,4 +1,6 @@
 dialog (Progress) {
+  // Match all concepts
   match: _
+  // Silence default progress dialog
   template("")
 }

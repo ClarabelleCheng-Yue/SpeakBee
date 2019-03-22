@@ -1,0 +1,6 @@
+dialog (Result) {
+  // Match all concepts
+  match: _
+  // Silence default dialog
+  template ("") 
+}
