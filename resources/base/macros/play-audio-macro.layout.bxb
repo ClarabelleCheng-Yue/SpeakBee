@@ -2,7 +2,7 @@ layout-macro-def (play-audio-macro) {
   params {
     param (audioUrl) {
       type (AudioUrl)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     param (text) {
       type (Text)
@@ -11,22 +11,24 @@ layout-macro-def (play-audio-macro) {
   }
   
   content {
-     title-card {
-        title-area {
-            halign (Center)
-            slot1 {
-                text {
-                    style (Title_S)
-                    value ("#{value(text)}")
-                }
-            }
+   title-card {
+    title-area {
+        halign (Center)
+        slot1 {
+          text {
+              style (Title_S)
+              value ("#{value(text)}")
+          }
         }
-        on-click {
-            intent {
-               goal: PlayUrl
-               value-set: AudioUrl { $expr(audioUrl) }
-            }
+      }
+      on-click {
+        if (exists(audioUrl)) {
+          intent {
+             goal: PlayUrl
+             value-set: AudioUrl { $expr(audioUrl) }
+          }          
         }
+      }
     }    
   }
 }

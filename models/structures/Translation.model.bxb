@@ -6,6 +6,6 @@ structure (Translation) {
   }
   property (audioUrl) {
     type (AudioUrl)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 }

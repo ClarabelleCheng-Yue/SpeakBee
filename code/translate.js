@@ -1,6 +1,7 @@
 var console = require ('console');
 var http = require('http');
 const regex = /translate from (english|spanish) to (english|spanish|korean) (.*)/i
+// Wake word
 const HI = "Hi ";
 
 module.exports.function = function translate ($vivContext) {
@@ -9,7 +10,8 @@ module.exports.function = function translate ($vivContext) {
   var result = http.getUrl('https://xlate.herokuapp.com/xlate', {format: 'text', query:{toxlate: toXlate, format:'json', api:'naver'}});
   text = JSON.parse(result).translation;
   return {
-    text: text || "o_o ?",
-    audioUrl: "" // Future feature: add audio translation
+    text: text || "o_o ?"
+    /* Future feature: add audio translation */
+    /* audioUrl: "" */
   }
 }
