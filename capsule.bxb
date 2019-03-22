@@ -1,9 +1,10 @@
 capsule {
-  id (samsung.tvTranslator)
+  id (speakbee.tvTranslator)
   version (0.1.0)
   format (3)
   targets {
     target (bixby-tv-en-US)
+    target (bixby-mobile-en-US)
   }
   capsule-imports {
     import (viv.core) { as (core) }

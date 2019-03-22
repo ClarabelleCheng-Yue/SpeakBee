@@ -10,7 +10,9 @@ module.exports.function = function translate ($vivContext) {
   // const parsed = regex.exec(utt);
   const toXlate = utt.substring(utt.indexOf(HEY) > -1 ? utt.indexOf(HEY) + HEY.length : 0); // (parsed.length < 4) ? '' : parsed[3];
   console.log('xlate: ', toXlate);
-  const text = http.getUrl('https://xlate.herokuapp.com/xlate', {format: 'text', query:{toxlate: toXlate, format:'text'}});
+  var result = http.getUrl('https://xlate.herokuapp.com/xlate', {format: 'text', query:{toxlate: toXlate, format:'json'}});
+  text = JSON.parse(result).translation;
+  console.log('url:' + 'https://xlate.herokuapp.com/xlate?toxlate='+ toXlate + '&format=text' );
   console.log('text: ', text);
   return {
     text: text || "test",
