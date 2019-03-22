@@ -1,5 +1,5 @@
 train (t-5prm73unvhxcudvvrg98suo32) {
-  utterance ([g:Translate] hey where can I find food)
-  plan (Y2BiUChOzC0uzUvXKykLKUrMK85JLMkv0oMxM/PzGOTwqkhlYARCBigGkgA=)
-  last-modified (1553131068634)
+  utterance ([g:Translate] Hi where can I find food)
+  plan (Y2BiUCwuSE3MTkpN1SspCylKzCvOSSzJL9KDMTPz8xjk8StJZWAEQgYoBpIA)
+  last-modified (1553224246134)
 }

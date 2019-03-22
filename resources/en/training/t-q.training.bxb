@@ -1,0 +1,5 @@
+train (t-q4c1zuvtbxwto6k20621z12gs) {
+  utterance ([g:Translate] Hi can I get a taxi)
+  plan (Y2BiUCwuSE3MTkpN1SspCylKzCvOSSzJL9KDMTPz8xjk8StJZWAEQgYoBpIA)
+  last-modified (1553224294718)
+}
