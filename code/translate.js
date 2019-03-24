@@ -11,7 +11,7 @@ module.exports.function = function translate ($vivContext) {
   text = JSON.parse(result).translation;
   return {
     text: text || "o_o ?",
-    imageUrls: ["/images/CoolBees.jpg"]
+    imageUrls: ["/assets/images/CoolBees.jpg"]
     /* Future feature: add audio translation */
     /* audioUrl: "" */
   }
