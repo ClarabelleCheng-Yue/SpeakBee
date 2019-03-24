@@ -9,12 +9,22 @@ result-view {
             param (text) {
               expression (this.text)
             }
+           
             param (audioUrl) {
               expression (this.audioUrl)
             }
           }
          }
        }
+      section {
+         content {
+          layout-macro (logo-speakbee-card) {
+            param (text) {
+              expression (this.text)
+            }
+          }
+         }
+      }
      }
   }
 }

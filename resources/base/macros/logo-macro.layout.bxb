@@ -1,0 +1,31 @@
+layout-macro-def (logo-speakbee-card) {
+  params {
+    param (text) {
+      type (Text)
+      min (Required) max (One)
+    }
+  }
+  content {
+    image-card {
+      aspect-ratio (4:3)
+      title-area {
+        halign (Start)
+        slot1 {
+          text {
+            value ("Welcome to SpeakBee")
+            style (Title_M)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("#{value(text)}")
+              style (Detail_L)
+            }
+          }
+        }
+      }
+      image-url ("/assets/images/CoolBees.jpg")
+    }
+  }
+}
