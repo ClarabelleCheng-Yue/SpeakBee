@@ -10,7 +10,7 @@ module.exports.function = function translate ($vivContext) {
   var result = http.getUrl('https://xlate.herokuapp.com/xlate', {format: 'text', query:{toxlate: toXlate, format:'json', api:'naver'}});
   text = JSON.parse(result).translation;
   return {
-    text: text || "o_o ?"
+    text: text || "o_o ?" // if server is down, make o_o ? face.
     /* Future feature: add audio translation */
     /* audioUrl: "" */
   }
