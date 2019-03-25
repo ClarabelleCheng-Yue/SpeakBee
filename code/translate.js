@@ -12,7 +12,7 @@ function xlateProxyAPI($vivContext) {
   return text;
 }
 
-module.exports.function = function translate ($vivContext) {
+function naverDirectAPI($vivContext) {
   const utt = $vivContext.utterance;
   const toXlate = (utt.indexOf(HI) > -1 && HI.length < utt.length) ? utt.substring(utt.indexOf(HI) + HI.length) : utt;
   var options = {
@@ -20,8 +20,14 @@ module.exports.function = function translate ($vivContext) {
     passAsJson: true,
     format: 'json'
   };
+  console.log('utterance', utt)
   var result = http.postUrl('https://openapi.naver.com/v1/language/translate', {source: 'en', target: 'ko', text:toXlate}, options);
-  text = result.message.result.translatedText;
+  console.log('result', result);
+  return result.message.result.translatedText;
+}
+
+module.exports.function = function translate ($vivContext) {
+  var text = naverDirectAPI($vivContext);
   return {
     text: text || "o_o ?"
     /* Future feature: add audio translation */
